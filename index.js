@@ -65,7 +65,7 @@ const server = http.createServer((req, res) => {
 
 var port = process.env.PORT || 1337;
 
-server.listen(port, '127.0.0.1', () => {
+server.listen(port, () => {
   console.log('Listening for requests now');
 });
 
